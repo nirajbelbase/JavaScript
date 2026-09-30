@@ -39,3 +39,75 @@ font-family: Arial, Helvetica, sans-serif;
  onmouseover: changeColor(rgb(33, 12, 214));
 
 }
+
+#H3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#counter{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+#countLabel{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+#btnContainer{
+    text-align: center;
+    margin-top: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;}
+    
+
+
+#decreaseBtn {
+    background-color: rgb(249, 247, 247);
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 100px;
+    border: 1px solid rgb(122, 46, 46);
+
+}
+
+
+#resetBtn {
+    background-color: rgb(249, 247, 247);
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 100px;
+    border: 1px solid rgb(122, 46, 46);
+
+}
+
+
+#increaseBtn {
+    background-color: rgb(249, 247, 247);
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 100px;
+    border: 1px solid rgb(122, 46, 46);
+
+}
+
+.button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgb(11, 11, 143)
+
+}
+
+button:hover {
+    background-color: rgb(122, 46, 46);
+    color: rgb(0, 0, 0);
+}

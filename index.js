@@ -53,6 +53,46 @@ document.getElementById("mySubmit").onclick = function() {
     document.getElementById("fH").textContent = `Hello ${Name}`;
 }
 
-window.prompt("how old are u");
-age+=1;
-console.log(`age; ${age}`);
+//window.prompt("how old are u");
+    console.log(`age; ${age}`);
+
+
+    // const = var that cant be changed 
+
+    const pi = 3.14;
+    let radius;
+    let circumference;
+
+    //radius = window.prompt("enter the radius of the circle");
+    radius = Number(radius);
+
+    circumference = 2 * pi * radius;
+    console.log(`circumference is ${circumference}`);
+
+
+
+
+    //counter
+    const decreaseBtn = document.getElementById("decreaseBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const increaseBtn = document.getElementById("increaseBtn");
+    const countLabel = document.getElementById("countLabel");
+
+    let count = 0;
+
+    decreaseBtn.onclick = function(){
+count--;
+countLabel.textContent = count;
+
+    }
+
+       increaseBtn.onclick = function(){
+count++;
+countLabel.textContent = count;
+
+    }
+
+
+    resetBtn.onclick = function(){
+        count = 0;
+        countLabel.textContent = count;}
