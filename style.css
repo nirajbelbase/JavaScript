@@ -1,7 +1,7 @@
 body{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
- 
+ background-color: rgb(206, 206, 206);
 
 }
 #fH{
@@ -18,4 +18,24 @@ font-family: Arial, Helvetica, sans-serif;
     Border-radius: 50%;
     background-color: black;
     border: 4px solid rgb(129, 14, 14);
+}
+#p1{
+ text-align: center;
+ color: green;
+ onmouseover: changeColor(yellow);
+}
+
+#p2{
+ text-align: center;
+ color: green;
+ onmouseover: changeColor(rgb(240, 6, 37));
+
+
+
+}
+#p3{
+ text-align: center;
+ color: green;
+ onmouseover: changeColor(rgb(33, 12, 214));
+
 }
