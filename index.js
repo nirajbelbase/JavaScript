@@ -96,3 +96,52 @@ countLabel.textContent = count;
     resetBtn.onclick = function(){
         count = 0;
         countLabel.textContent = count;}
+
+        document.getElementById("wB").onclick = function(){
+            document.getElementById("wH").textContent = `UNC
+            `;
+        }
+
+
+
+        // if statements
+        if (age >= 18) {
+            console.log("You are an adult");
+        } else {
+            console.log("You are a minor");
+        }
+        
+
+        let isStudent = true;
+
+        if (isStudent) {
+            console.log("You are a student");
+        } else {
+            console.log("You are not a student");
+        }
+
+       /* let age = 19;
+        let hasID = true;
+
+        if (age >= 18) {
+            console.log("You are an adult");
+        }
+
+*/
+
+        const aGb = document.getElementById("aGb");
+        const aGu = document.getElementById("aGu");
+        const myMessage = document.getElementById("myMessage");
+
+        aGb.onclick = function() {
+            age = aGu.value;
+
+            if (age >= 17) {
+                myMessage.textContent = "Get a JOB gng";
+                window.location.href = "https://www.jobsnepal.com/";
+            } 
+            if (age <= 17) {
+                myMessage.textContent = "Just some more years of life and you are a slave....";
+            } 
+
+        }
