@@ -138,10 +138,44 @@ countLabel.textContent = count;
 
             if (age >= 17) {
                 myMessage.textContent = "Get a JOB gng";
+                window.alert("")
                 window.location.href = "https://www.jobsnepal.com/";
+                
             } 
             if (age <= 17) {
                 myMessage.textContent = "Just some more years of life and you are a slave....";
             } 
 
+        }
+
+        const myCheckbox = document.getElementById("myCheckbox");
+        const paypalBtn = document.getElementById("paypalBtn");
+        const visaBtn = document.getElementById("visaBtn");
+        const mastercardBtn = document.getElementById("mastercardBtn");
+        const subBtn = document.getElementById("subBtn");
+        const subResult = document.getElementById("subResult");
+        const rateResult = document.getElementById("rateResult");
+        
+
+        subBtn.onclick = function() {
+            if (myCheckbox.checked) {
+                subResult.textContent = "You have submitted the form";
+            } else { 
+                subResult.textContent = "Please check the box to submit the form";
+             
+            } 
+            if (visaBtn.checked) {
+                rateResult.textContent = "thanks gng";
+            } 
+            else if (mastercardBtn.checked) {
+                rateResult.textContent = "Fairs";
+            } 
+            else if (paypalBtn.checked) {
+                rateResult.textContent = "SYBAU";
+
+            }
+            else {
+                rateResult.textContent = "Rate or Big Yahu will come for you!!!";
+
+            }
         }
